@@ -1,18 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
     public class ChallengesSet03
     {
+        private int advisor;
+
         public bool ArrayContainsAFalse(bool[] vals)
         {
             for (int i = 0; i < vals.Length; i++)
             {
                 return true;
             }
+            return false;
         }
-        return false;
+        
 
         public bool IsSumOfOddsOdd(IEnumerable<int> numbers)
         {
